@@ -20,10 +20,8 @@ class CreateLikesTable extends Migration
 
             // $table->foreign('reply_id')->references('id')->on('replies')
             //     ->onDelete('cascade');
-
             // $table->foreign('user_id')->references('users')->on('id')
             //     ->onDelete('cascade');
-
             $table->timestamps();
         });
     }
